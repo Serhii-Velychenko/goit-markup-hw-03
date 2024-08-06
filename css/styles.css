@@ -24,6 +24,9 @@ ul {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -223,7 +226,7 @@ button {
 }
 
 .container-bottom-team-cards {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .title-our-team {
   min-width: 162px;
@@ -237,7 +240,7 @@ button {
 }
 
 .descripcion-name {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -264,9 +267,7 @@ button {
   gap: 48px 24px;
 }
 .container-portfolio-sectiom-three {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -288,7 +289,7 @@ button {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-description {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -311,6 +312,8 @@ button {
   padding-bottom: 100px;
 }
 .logo-footer {
+  margin-bottom: 16px;
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -329,7 +332,6 @@ button {
   color: #f4f4fd;
 }
 .descripcion-footer {
-  padding-top: 16px;
   max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
